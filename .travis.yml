@@ -34,6 +34,7 @@ addons:
     
     #gem install --user travis
     #travis encrypt COVERITY_SCAN_TOKEN=jpa0rl4OrwDLjzUoipBiYA -r MediaRain01/elasticsearch-for-spring-data
-    gem install travis
+    
+    gem install --user travis
     cd MediaRain01/elasticsearch-for-spring-data
     travis encrypt COVERITY_SCAN_TOKEN=jpa0rl4OrwDLjzUoipBiYA
