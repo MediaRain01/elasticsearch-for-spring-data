@@ -1,7 +1,7 @@
 language: java
 
-env:
-  global:
+#env:
+  #global:
     # COVERITY_SCAN_TOKEN
     # ** specific to your project **
     #- secure: jpa0rl4OrwDLjzUoipBiYA
