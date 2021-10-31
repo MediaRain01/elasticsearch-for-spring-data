@@ -4,7 +4,7 @@ env:
   global:
     # COVERITY_SCAN_TOKEN
     # ** specific to your project **
-    - secure: jpa0rl4OrwDLjzUoipBiYA
+    #- secure: jpa0rl4OrwDLjzUoipBiYA
 
 addons:
   coverity_scan:
@@ -32,5 +32,5 @@ addons:
     #   https://scan.coverity.com/faq#frequency
     branch_pattern: coverity_scan
     
-    gem install --user travis
-    travis encrypt COVERITY_SCAN_TOKEN=jpa0rl4OrwDLjzUoipBiYA -r MediaRain01/elasticsearch-for-spring-data
+    #gem install --user travis
+    #travis encrypt COVERITY_SCAN_TOKEN=jpa0rl4OrwDLjzUoipBiYA -r MediaRain01/elasticsearch-for-spring-data
