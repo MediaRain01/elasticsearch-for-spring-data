@@ -17,7 +17,7 @@ addons:
       description: Spring Elasticsearch Project
 
     # Where email notification of build analysis results will be sent-school account
-    #notification_email: h.hess1788@o365.ncu.edu
+    notification_email: h.hess1788@o365.ncu.edu
 
     # Commands to prepare for build_command
     # ** likely specific to your build **
@@ -35,6 +35,6 @@ addons:
     #gem install --user travis
     #travis encrypt COVERITY_SCAN_TOKEN=jpa0rl4OrwDLjzUoipBiYA -r MediaRain01/elasticsearch-for-spring-data
     
-    gem install --user travis
-    cd MediaRain01/elasticsearch-for-spring-data
-    travis encrypt COVERITY_SCAN_TOKEN=jpa0rl4OrwDLjzUoipBiYA
+    #gem install --user travis
+    #cd MediaRain01/elasticsearch-for-spring-data
+    #travis encrypt COVERITY_SCAN_TOKEN=jpa0rl4OrwDLjzUoipBiYA
