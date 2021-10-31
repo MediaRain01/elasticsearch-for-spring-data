@@ -1,20 +1,20 @@
 language: java
 
-#env:
-  #global:
+env:
+  global:
     # COVERITY_SCAN_TOKEN
     # ** specific to your project **
-    #- secure: jpa0rl4OrwDLjzUoipBiYA
+    - secure: jpa0rl4OrwDLjzUoipBiYA
 
 addons:
   coverity_scan:
 
     # GitHub project metadata
     # ** specific to your project **
-    #project:
-    #  name: MediaRain01/elasticsearch-for-spring-data
-    #  version: 1.0
-    #  description: Spring Elasticsearch Project
+    project:
+      name: MediaRain01/elasticsearch-for-spring-data
+      version: 1.0
+      description: Spring Elasticsearch Project
 
     # Where email notification of build analysis results will be sent-school account
     #notification_email: h.hess1788@o365.ncu.edu
