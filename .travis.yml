@@ -26,7 +26,7 @@ addons:
     # The command that will be added as an argument to "cov-build" to compile your project for analysis,
     # ** likely specific to your build **
     #build_command: gradle build
-    build_command: javac
+    build_command: ./mvnw clean install -DskipTests=true
 
     # Pattern to match selecting branches that will run analysis. We recommend leaving this set to 'coverity_scan'.
     # Take care in resource usage, and consider the build frequency allowances per
